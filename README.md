@@ -6,7 +6,7 @@ En esta tarea, nos familiarizaremos con el API descrito en el capítulo del libr
 
 ## Questions ##
 
-1. **Stat**: Escriba su propia versión del comando ```stat```, la cual simplemente invoca la llamada del sistema ```stat()``` en un archivo o directorio. Imprima el tamaño del archivo, el número de bloques asignado, reference (link) count, etc. Que es el link count de un directorio, como el numero de entradas en el directorio cambia? Interfaces Útiles: ```stat()```, naturalmente.
+1. **Stat**: Escriba su propia versión del comando ```stat```, la cual simplemente invoca la llamada del sistema ```stat()``` en un archivo o directorio. Imprima el tamaño del archivo, el número de bloques asignado, reference (link) count, etc. ¿Qué es el link count de un directorio, ¿cómo el numero de entradas en el directorio cambia? Interfaces Útiles: ```stat()```, naturalmente.
 
 2. **List Files**: Escriba un programa que liste los archivos en un directorio dado. Cuando sea llamado sin argumentos, el programa deberá solo imprimir los nombres del archivo. Cuando se invoque con la flag ```-l```, el programa deberá imprimir la información de cada archivo tal como, owner, group, permissions y otra información obtenida de la llamada de sistema ```stat()```. El programa deberá tomar un argumento adicional el cual es el directorio a leer, por ejemplo, ```myls -l directory```.  Si ningún directorio es dado, el programa solo deberá usar el directorio de trabajo actual. Interfaces Útiles: ```stat()```, ```opendir()```, ```readdir()```, ```getcwd()```.
 
