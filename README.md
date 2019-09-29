@@ -4,7 +4,7 @@
 
 En esta tarea, nos familiarizaremos con el API descrito en el capítulo del libro. Para hacer esto, usted solo debe escribir unos cuantos programas, la mayoria basada en varias utilidades UNIX.
 
-## Questions ##
+## Preguntas ##
 
 1. **Stat**: Escriba su propia versión del comando ```stat```, la cual simplemente invoca la llamada del sistema ```stat()``` en un archivo o directorio. Imprima el tamaño del archivo, el número de bloques asignado, reference (link) count, etc. ¿Qué es el link count de un directorio, ¿cómo el numero de entradas en el directorio cambia? Interfaces Útiles: ```stat()```, naturalmente.
 
